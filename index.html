@@ -162,7 +162,7 @@ function createIframe(objId, type, wrapperClass = "") {
 
     const iframe = document.createElement("iframe");
     iframe.className = "qlik-object";
-    iframe.src = 'https://https://bi-cresol.us.qlikcloud.com/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
+    iframe.src = 'https://bi-cresol.us.qlikcloud.com/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
 
     switch(type){
         case "kpi": iframe.style.height = "180px"; break;
