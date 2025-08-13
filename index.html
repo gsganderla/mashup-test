@@ -162,7 +162,7 @@ function createIframe(objId, type, wrapperClass = "") {
 
     const iframe = document.createElement("iframe");
     iframe.className = "qlik-object";
-    iframe.src = 'https://${config.host}/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
+    iframe.src = 'https://msryx1okj1jicf6.us.qlikcloud.com/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
 
     switch(type){
         case "kpi": iframe.style.height = "180px"; break;
