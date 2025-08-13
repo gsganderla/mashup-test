@@ -100,7 +100,7 @@
 <script>
 const config = {
     /*host: "msryx1okj1jicf6.us.qlikcloud.com", */
-    host: "https://bi-cresol.us.qlikcloud.com/",
+    host: "https://bi-cresol.us.qlikcloud.com",
     appId: "a9e68ba1-7857-4dd5-ac65-601778c6875c",
     webIntegrationId: "sg3OPX-nsZk-Q6Omi9THVDtbVdbHnb9C"
 };
@@ -162,7 +162,7 @@ function createIframe(objId, type, wrapperClass = "") {
 
     const iframe = document.createElement("iframe");
     iframe.className = "qlik-object";
-    iframe.src = 'https://msryx1okj1jicf6.us.qlikcloud.com/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
+    iframe.src = 'https://https://bi-cresol.us.qlikcloud.com/single/?appid=${config.appId}&obj=${objId}&theme=horizon&opt=none&web-integration-id=${config.webIntegrationId}';
 
     switch(type){
         case "kpi": iframe.style.height = "180px"; break;
